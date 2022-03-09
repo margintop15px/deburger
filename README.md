@@ -1,10 +1,10 @@
 # deburger
 
-A Clojure library designed to ... well, that part is up to you.
+Helpers for REPL-driven development
 
 ## Usage
 
-FIXME
+TBD
 
 ## License
 
