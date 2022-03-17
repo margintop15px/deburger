@@ -6,4 +6,10 @@
 
   :dependencies [[org.clojure/clojure "1.10.3"]]
 
-  :repl-options {:init-ns deburger.core})
+  :repl-options {:init-ns deburger.core}
+
+  :deploy-repositories
+  [["clojars" {:sign-releases false
+               :url           "https://clojars.org/repo"
+               :username      :env/CLOJARS_USERNAME
+               :password      :env/CLOJARS_PASSWORD}]])
